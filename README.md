@@ -50,6 +50,3 @@ processor.py: Contains the function to generate slow motion videos using optical
 app.py: Sets up the Gradio interface and integrates the video processing function.
 Contributing
 Contributions are welcome! Please feel free to open issues or submit pull requests if you have any suggestions or improvements.
-
-License
-This project is licensed under the MIT License.
