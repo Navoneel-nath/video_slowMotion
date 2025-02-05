@@ -1,34 +1,30 @@
-video_slowMotion
-A slow motion video generator that uses optical flow interpolation to create smooth slow-motion effects in videos. The application leverages OpenCV for video processing and Gradio to provide an interactive web interface.
+# video_slowMotion
 
-Features
-Optical Flow Interpolation: Generate intermediate frames using Farneback optical flow.
-CUDA Acceleration: Automatically detects and uses CUDA for faster processing if available.
-User-Friendly Interface: Simple Gradio web interface for video upload and slow-motion generation.
-Progress Tracking: Uses tqdm to display a processing progress bar.
-Requirements
-Python 3.7+
-OpenCV (both opencv-python and opencv-contrib-python)
-NumPy
-Gradio
-tqdm
-Installation
-Clone the Repository:
+A slow motion video generator that creates smooth slow-motion effects by leveraging optical flow interpolation. This Python tool uses OpenCV for video processing and Gradio for an interactive web interface, with optional CUDA acceleration for enhanced performance.
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/video_slowMotion.git
-cd video_slowMotion
-Install Dependencies:
+## Features
 
-It is recommended to use a virtual environment. Then run:
+- **Optical Flow Interpolation:** Uses Farneback optical flow to generate intermediate frames for smooth slow motion.
+- **CUDA Acceleration:** Automatically detects and utilizes CUDA if available, speeding up the optical flow computation.
+- **Interactive Interface:** A simple Gradio web interface to easily upload and process videos.
+- **Progress Indicator:** Displays a live progress bar during video processing using tqdm.
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Example requirements.txt content:
+## Requirements
+
+- Python 3.7 or later
+- [OpenCV](https://opencv.org/) (both `opencv-python` and `opencv-contrib-python`)
+- [NumPy](https://numpy.org/)
+- [Gradio](https://gradio.app/)
+- [tqdm](https://github.com/tqdm/tqdm)
+
+## Installation
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/video_slowMotion.git
+   cd video_slowMotion
+
 
 txt
 Copy
